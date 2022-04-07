@@ -7,6 +7,6 @@ import {Post} from "../../interfaces";
   styleUrls: ['./post.component.scss']
 })
 export class PostComponent {
-  @Input() post!: Post
+  @Input() post: Post
 }
 
